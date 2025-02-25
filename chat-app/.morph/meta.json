@@ -1,0 +1,89 @@
+{
+  "directory": "/home/tjyana/code/Projects/morph-practice/chat-app",
+  "directory_checksums": {
+    "/home/tjyana/code/Projects/morph-practice/chat-app/src": "8cbf6661281103e34b81990c168ef6493e95bac59a4704b4ccc1a1ddb84278b7"
+  },
+  "items": [
+    {
+      "spec": {
+        "id": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/chat.py:langchain_chat",
+        "name": "langchain_chat",
+        "function": null,
+        "description": null,
+        "title": null,
+        "variables": {},
+        "data_requirements": [],
+        "output_paths": [
+          "/home/tjyana/code/Projects/morph-practice/chat-app/.morph/cache/{name}{ext()}"
+        ],
+        "output_type": null,
+        "connection": null,
+        "result_cache_ttl": null
+      },
+      "file_path": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/chat.py",
+      "checksum": "e267143bed6a68f5c054943d4a5d22efa8cba0e030ff63530a42982c0affb8f3"
+    },
+    {
+      "spec": {
+        "id": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/example.py:example_chart",
+        "name": "example_chart",
+        "function": null,
+        "description": null,
+        "title": null,
+        "variables": {},
+        "data_requirements": [
+          "example_data"
+        ],
+        "output_paths": [
+          "/home/tjyana/code/Projects/morph-practice/chat-app/.morph/cache/{name}{ext()}"
+        ],
+        "output_type": null,
+        "connection": null,
+        "result_cache_ttl": null
+      },
+      "file_path": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/example.py",
+      "checksum": "82fbf9fa5096fcd6262ce7bb02bb852d87eb86e82f315a9841f1a4ed7b32689a"
+    },
+    {
+      "spec": {
+        "id": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/example.py:example_metrics",
+        "name": "example_metrics",
+        "function": null,
+        "description": null,
+        "title": null,
+        "variables": {},
+        "data_requirements": [
+          "example_data"
+        ],
+        "output_paths": [
+          "/home/tjyana/code/Projects/morph-practice/chat-app/.morph/cache/{name}{ext()}"
+        ],
+        "output_type": null,
+        "connection": null,
+        "result_cache_ttl": null
+      },
+      "file_path": "/home/tjyana/code/Projects/morph-practice/chat-app/src/python/example.py",
+      "checksum": "82fbf9fa5096fcd6262ce7bb02bb852d87eb86e82f315a9841f1a4ed7b32689a"
+    },
+    {
+      "spec": {
+        "id": "/home/tjyana/code/Projects/morph-practice/chat-app/src/sql/example_data.sql",
+        "name": "example_data",
+        "function": null,
+        "description": null,
+        "title": null,
+        "variables": {},
+        "data_requirements": [],
+        "output_paths": [
+          "/home/tjyana/code/Projects/morph-practice/chat-app/.morph/cache/{name}{ext()}"
+        ],
+        "output_type": "dataframe",
+        "connection": "DUCKDB",
+        "result_cache_ttl": 0
+      },
+      "file_path": "/home/tjyana/code/Projects/morph-practice/chat-app/src/sql/example_data.sql",
+      "checksum": "0be83b81d913064ecc3afcca49b76a74c291195f11628c40b4b58181017bc07d"
+    }
+  ],
+  "errors": []
+}
